@@ -52,3 +52,6 @@ The following table defines the signal assignments between the AFM test setup an
 | `scan_image`  | External | TIFF Upload            | AFM-acquired scan image (loaded externally, synchronized post-capture)     |
 
 Signals are sampled at 10 kHz (analog, 12-bit resolution) and latched (digital) with sub-millisecond precision. Each data stream is timestamped and packaged into `.afmpkg` files for LLM-based interpretation.
+
+# Initial Boot
+![Example Output](Images/STM32-development-board-initial-boot.PNG)
