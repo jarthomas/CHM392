@@ -9,6 +9,8 @@ This project demonstrates a proof-of-concept system for **passive signal capture
 
 Each `.afmpkg` file is time-synchronized with the microscope’s scanning parameters and is intended to be processed by a **large language model (LLM)** via the Better Synthesis platform. This enables high-level interpretation and automated troubleshooting of nanoscale scan data, significantly reducing manual diagnostic work.
 
+[System Block Diagram – CHM392-Block-Diagram.PNG](CHM392-Block-Diagram.PNG)
+
 ## Key Features
 
 - **Hardware**: STM32H7-based DAQ with GPIO and ADC support for analog + digital acquisition
