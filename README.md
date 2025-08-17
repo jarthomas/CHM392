@@ -5,7 +5,7 @@ Repository for CHM392: Introduction to Research Techniques
 
 ## Overview
 
-This project demonstrates a proof-of-concept system for **passive signal capture** from an atomic force microscope (AFM), using an STM32H755ZI Nucleo-144 development board. The system is designed to record multiple analog and digital signals—such as cantilever deflection, Z-piezo motion, and scan sync pulses—and package them into a structured `.afmpkg` format.
+This project demonstrates a proof-of-concept system for **passive signal capture** from an atomic force microscope (AFM), using an STM32H755ZI Nucleo-144 development board. The system is designed to record multiple analog and digital signals, such as cantilever deflection, Z-piezo motion, and scan sync pulses—and package them into a structured `.afmpkg` format.
 
 Each `.afmpkg` file is time-synchronized with the microscope’s scanning parameters and is intended to be processed by a **large language model (LLM)** via the Better Synthesis platform. This enables high-level interpretation and automated troubleshooting of nanoscale scan data, significantly reducing manual diagnostic work.
 
